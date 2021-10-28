@@ -7,6 +7,9 @@ def download(url, name=""):
         response = requests.get(url)
         domain = domain_extract.domain(response.url)
         if not name:
+            if domain not in []:
+                name = response.url.split("/", -1)[-1]
+        if not name:
             return raise Exception("No name found")
         with open(name, "wb") as file:
             file.write(response.content)
