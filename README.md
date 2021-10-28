@@ -23,8 +23,13 @@ import urldl
 
 url = "https://fayas.me/icon.png"
 name = "logo.png"
+
 urldl.download(url, name)
 # For download image of url in name directory
+
+urldl.download(url)
+# Same of the above without name ( not recommended )
+# Note :- This type not supported in some links
 ```
 
 ---
