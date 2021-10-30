@@ -22,7 +22,7 @@ import urldl
 
 
 url = "https://fayas.me/icon.png"
-name = "logo.png"
+name = "/downloads/logo.png"
 
 urldl.download(url, name)
 # For download image of url in name directory
