@@ -10,9 +10,11 @@ def download(url, name=""):
             if domain not in []:
                 name = response.url.split("/", -1)[-1]
                 if "." not in name:
-                    return raise Exception("No name found")
+                    raise Exception("No name found")
+                    return
         with open(name, "wb") as file:
             file.write(response.content)
         return name 
     except Exception as error:
         raise Exception(error)
+        return
