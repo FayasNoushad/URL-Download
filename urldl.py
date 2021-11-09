@@ -15,4 +15,4 @@ def download(url, name=""):
             file.write(response.content)
         return name 
     except Exception as error:
-        return raise Exception(error)
+        raise Exception(error)
