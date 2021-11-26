@@ -20,11 +20,10 @@ def readme(file="README.md"):
 
 setuptools.setup(
     name="urldl",
-    version="1.1.0",
+    version="1.1.1",
     description="URL content downloader",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    download_url="https://github.com/FayasNoushad/URL-Download/releases/latest",
     license="MIT",
     author="Fayas Noushad",
     classifiers=[
