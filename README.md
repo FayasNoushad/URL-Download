@@ -18,7 +18,7 @@ urldl.download(url)
 ## Installation
 
 ```
-pip install URLDL
+pip install urldl
 ```
 
 ## Features
