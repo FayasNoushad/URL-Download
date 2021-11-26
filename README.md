@@ -1,12 +1,3 @@
-```
-Made with Python3
-(C) @FayasNoushad
-Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/URL-Download/blob/main/LICENSE
-```
-
----
-
 ## Installation
 
 ```
