@@ -20,15 +20,13 @@ def readme(file="README.md"):
 
 setuptools.setup(
     name="urldl",
-    version="1.0.8",
+    version="1.0.9",
     description="URL content downloader",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/FayasNoushad/",
     download_url="https://github.com/FayasNoushad/URL-Download/releases/latest",
     license="MIT",
     author="Fayas Noushad",
-    author_email="contact@fayas.me",
     classifiers=[
         "Intended Audience :: Developers",
         "Natural Language :: English",
@@ -38,8 +36,7 @@ setuptools.setup(
     ],
     project_urls={
         "Tracker": "https://github.com/FayasNoushad/URL-Download/issues",
-        "Source": "https://github.com/FayasNoushad/URL-Download",
-        "Documentation": "https://urldl.projects.fayas.me",
+        "Source": "https://github.com/FayasNoushad/URL-Download"
     },
     python_requires=">=3.6",
     packages=setuptools.find_packages(),
