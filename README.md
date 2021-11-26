@@ -1,12 +1,4 @@
-## Installation
-
-```
-pip install urldl
-```
-
----
-
-## Usage
+# URL Download
 
 ```py
 import urldl
@@ -23,10 +15,13 @@ urldl.download(url)
 # Note :- This type not supported in some links
 ```
 
----
+## Installation
 
-## Credits
+```
+pip install URLDL
+```
 
-- [Fayas Noushad](https://github.com/FayasNoushad)
+## Features
 
----
+- Download content of url
+- Manual and automatic file name
