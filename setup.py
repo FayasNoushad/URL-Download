@@ -39,6 +39,7 @@ setuptools.setup(
         "Source": "https://github.com/FayasNoushad/URL-Download"
     },
     python_requires=">=3.6",
+    py_modules=['urldl'],
     packages=setuptools.find_packages(),
     zip_safe=False,
     install_requires=requirements()
