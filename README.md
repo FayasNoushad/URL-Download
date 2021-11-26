@@ -21,8 +21,8 @@ pip install urldl
 import urldl
 
 
-url = "https://fayas.me/icon.png"
-name = "icon.png"
+url = "https://github.com/FayasNoushad.png"
+name = "profile.png"
 
 urldl.download(url, name)
 # For download image of url in name directory
