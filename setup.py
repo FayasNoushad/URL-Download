@@ -20,7 +20,7 @@ def readme(file="README.md"):
 
 setuptools.setup(
     name="urldl",
-    version="1.1.1",
+    version="1.1.2",
     description="URL content downloader",
     long_description=readme(),
     long_description_content_type="text/markdown",
