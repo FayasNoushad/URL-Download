@@ -1,5 +1,16 @@
 # URL Download
 
+- Download content of url
+- Manual and automatic file name
+
+## Installation
+
+```
+pip install urldl
+```
+
+## Usage
+
 ```py
 import urldl
 
@@ -14,14 +25,3 @@ urldl.download(url)
 # Same of the above without name ( not recommended )
 # Note :- This type not supported in some links
 ```
-
-## Installation
-
-```
-pip install urldl
-```
-
-## Features
-
-- Download content of url
-- Manual and automatic file name
