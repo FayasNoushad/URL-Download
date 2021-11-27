@@ -19,7 +19,7 @@ url = "https://github.com/FayasNoushad.png"
 name = "profile.png"
 
 urldl.download(url, name)
-# For download image of url in name directory
+# For download media of url in name directory
 
 urldl.download(url)
 # Same of the above without name ( not recommended )
